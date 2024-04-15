@@ -12,7 +12,7 @@ public class Digits
 		   digitList.add(0);
 		}
 		int nNum = num;
-		while (n > 0) {
+		while (nNum > 0) {
 		   digitList.add(0, n%10);
 		   nNum = nNum/10;
 		}
